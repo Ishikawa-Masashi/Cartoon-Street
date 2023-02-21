@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcartoon_street=self.webpackChunkcartoon_street||[]).push([[9215],{70607:e=>{e.exports=JSON.parse('{"label":"principles","permalink":"/tags/principles","allTagsPath":"/tags","count":1,"items":[{"id":"comparison","title":"Comparison","description":"What makes Chakra UI different from other UI libraries","permalink":"/comparison"}]}')}}]);

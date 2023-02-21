@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcartoon_street=self.webpackChunkcartoon_street||[]).push([[4604],{54330:e=>{e.exports=JSON.parse('{"permalink":"/Cartoon-Street/changelog","page":1,"postsPerPage":1,"totalPages":20,"totalCount":20,"nextPage":"/Cartoon-Street/changelog/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
