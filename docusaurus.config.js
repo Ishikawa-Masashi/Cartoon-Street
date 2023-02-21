@@ -14,6 +14,9 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
+  organizationName: "ishikawa-masashi", // Usually your GitHub org/user name.
+  projectName: "ishikawa-masashi.github.io", // Usually your repo name.
+  deploymentBranch: "gh-pages",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -130,8 +133,19 @@ const config = {
       "@docusaurus/plugin-content-docs",
       {
         id: "getting-started",
-        routeBasePath: "/",
+        routeBasePath: "/getting-started",
         path: "./content/getting-started",
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        exclude: ["**/**.example.mdx"],
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "cartoons",
+        routeBasePath: "/",
+        path: "./content/cartoons",
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
         exclude: ["**/**.example.mdx"],
