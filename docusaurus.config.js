@@ -10,12 +10,12 @@ const config = {
   title: "Chakra UI",
   tagline: "Dinosaurs are cool",
   url: "https://chakra-ui.com",
-  baseUrl: "/",
+  baseUrl: "/Cartoon-Street",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
   organizationName: "ishikawa-masashi", // Usually your GitHub org/user name.
-  projectName: "ishikawa-masashi.github.io", // Usually your repo name.
+  projectName: "Cartoon-Street", // Usually your repo name.
   deploymentBranch: "gh-pages",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -35,7 +35,8 @@ const config = {
       navbar: {
         logo: {
           alt: "Chakra UI Logo",
-          src: "img/logo.svg",
+          //   src: "img/logo.svg",
+          src: "../img/タイトルロゴ.png",
           srcDark: "img/logo-dark.svg",
         },
         items: [
