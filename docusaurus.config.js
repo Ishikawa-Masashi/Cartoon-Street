@@ -111,7 +111,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Ishikawa Masashi",
+        title: "Cartoon Street",
         // logo: {
         //   alt: 'Mebiusbox Logo',
         //   src: 'img/logo.svg',

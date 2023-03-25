@@ -182,6 +182,7 @@ export default function Homepage(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+        <img src="img/タイトルロゴ.png" />
         <div className="row">
           <Blog />
           <Announce />
