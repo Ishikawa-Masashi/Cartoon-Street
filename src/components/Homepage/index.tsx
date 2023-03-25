@@ -100,7 +100,7 @@ function Announce() {
 function SoftwareItem({ name, version, url, description }: SoftwareInfo) {
   const { i18n } = useDocusaurusContext();
   const newUrl = isInternalUrl(url) ? "/docs/software" + url : url;
-  const image = `/img/${name}.ico`;
+  const image = `img/${name}.ico`;
   return (
     <article className="col col--6">
       <WebBookmark
@@ -119,7 +119,7 @@ function Software() {
   return (
     <div className="col margin-bottom--lg">
       <h2 className={styles.head}>
-        <Translate>ソフトウェア</Translate>
+        <Translate>カートゥーン</Translate>
       </h2>
       <div className="row">
         {SoftwareList.map((props: SoftwareInfo, idx: number) => (
@@ -184,9 +184,9 @@ export default function Homepage(): JSX.Element {
       <div className="container">
         <img src="img/タイトルロゴ.png" />
         <div className="row">
+          <Software />
           <Blog />
           <Announce />
-          <Software />
           <Support />
           {/* <Donation /> */}
         </div>
