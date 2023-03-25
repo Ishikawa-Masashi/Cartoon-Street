@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmebiusbox_docusaurus=self.webpackChunkmebiusbox_docusaurus||[]).push([[8819],{50527:a=>{a.exports=JSON.parse('{"label":"gitlab","permalink":"/Cartoon-Street/blog/tags/gitlab","allTagsPath":"/Cartoon-Street/blog/tags","count":1}')}}]);

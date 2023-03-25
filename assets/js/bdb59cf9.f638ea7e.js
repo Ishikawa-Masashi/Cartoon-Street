@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmebiusbox_docusaurus=self.webpackChunkmebiusbox_docusaurus||[]).push([[6671],{57324:s=>{s.exports=JSON.parse('{"label":"WordPress","permalink":"/Cartoon-Street/blog/tags/word-press","allTagsPath":"/Cartoon-Street/blog/tags","count":1}')}}]);
