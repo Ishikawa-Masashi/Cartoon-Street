@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmebiusbox_docusaurus=self.webpackChunkmebiusbox_docusaurus||[]).push([[541],{64254:e=>{e.exports=JSON.parse('{"label":"diary","permalink":"/Cartoon-Street/en/blog/tags/diary","allTagsPath":"/Cartoon-Street/en/blog/tags","count":14}')}}]);
