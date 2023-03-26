@@ -6,7 +6,7 @@
     en: File management
 - name: フューチュラマ
   version: 1.20.2
-  url: /software_file_hammer
+  url: /category/%E3%83%95%E3%83%A5%E3%83%BC%E3%83%81%E3%83%A5%E3%83%A9%E3%83%9E
   description: 
     ja: アメリカが生み出した最高のSFアニメ
     en: File deletion software. Set various search rules to narrow down the files you want to delete. You can also copy and move files.

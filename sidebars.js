@@ -63,6 +63,7 @@ const sidebars = {
     {
       type: "category",
       label: "ザ・シンプソンズ",
+      collapsible: true,
       link: {
         type: "generated-index",
       },
@@ -77,6 +78,7 @@ const sidebars = {
     {
       type: "category",
       label: "フューチュラマ",
+      collapsible: true,
       link: {
         type: "generated-index",
       },
