@@ -136,7 +136,7 @@ const config = {
           //   label: "Software",
           //   position: "left",
           // },
-          // { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
           // {
           //   href: "https://mebiusbox.github.io/contents/EffectTextureMaker",
           //   label: "EffectTextureMaker",
@@ -172,17 +172,17 @@ const config = {
           {
             title: "Contact",
             items: [
-              {
-                label: "BOOTH",
-                href: "https://mebiusbox.booth.pm/",
-              },
+              // {
+              //   label: "BOOTH",
+              //   href: "https://mebiusbox.booth.pm/",
+              // },
               {
                 label: "Twitter",
-                href: "https://twitter.com/mebiusbox2",
+                href: "https://twitter.com/IshikawaMasasi",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/Ishikawa-Masashi",
+                href: "https://github.com/Ishikawa-Masashi/Cartoon-Street",
               },
             ],
           },
