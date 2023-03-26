@@ -119,8 +119,14 @@ const config = {
         items: [
           // { to: "/docs/category/cartoon", label: "Cartoon", position: "left" },
           {
-            to: "/docs/category/ザシンプソンズ-1",
+            to: "/docs/category/ザシンプソンズ",
             label: "ザ・シンプソンズ",
+            position: "left",
+          },
+
+          {
+            to: "/docs/category/フューチュラマ",
+            label: "フューチュラマ",
             position: "left",
           },
           // { to: "/docs/category/lab", label: "Lab", position: "left" },

@@ -113,7 +113,7 @@ function SoftwareItem({ name, version, url, description }: SoftwareInfo) {
 
 function CartoonItem({ name, version, url, description }: SoftwareInfo) {
   const { i18n } = useDocusaurusContext();
-  const newUrl = isInternalUrl(url) ? "/docs/software" + url : url;
+  const newUrl = isInternalUrl(url) ? "/docs" + url : url;
   // const image = `img/${name}.ico`;
   const image = `img/${name}.svg`;
   return (
