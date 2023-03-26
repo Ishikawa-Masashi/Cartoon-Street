@@ -117,9 +117,9 @@ const config = {
         //   src: 'img/logo.svg',
         // },
         items: [
-          { to: "/docs/category/cartoon", label: "Cartoon", position: "left" },
+          // { to: "/docs/category/cartoon", label: "Cartoon", position: "left" },
           {
-            to: "/docs/category/ザ・シンプソンズ",
+            to: "/docs/category/ザシンプソンズ-1",
             label: "ザ・シンプソンズ",
             position: "left",
           },
