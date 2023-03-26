@@ -2,6 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.scss";
 import SoftwareList from "./software.yml";
+import CartoonList from "./cartoon.yml";
 import RecentList from "./recent.yml";
 import Link from "@docusaurus/Link";
 import Admonition from "@theme/Admonition";
@@ -115,15 +116,34 @@ function SoftwareItem({ name, version, url, description }: SoftwareInfo) {
   );
 }
 
-function Software() {
+function CartoonItem({ name, version, url, description }: SoftwareInfo) {
+  const { i18n } = useDocusaurusContext();
+  const newUrl = isInternalUrl(url) ? "/docs/software" + url : url;
+  // const image = `img/${name}.ico`;
+  const image = `img/${name}.svg`;
+  return (
+    <article className="col col--6">
+      <WebBookmark
+        name={name}
+        url={newUrl}
+        description={
+          description[i18n.currentLocale] ?? description[i18n.defaultLocale]
+        }
+        image={image}
+      />
+    </article>
+  );
+}
+
+function Cartoon() {
   return (
     <div className="col margin-bottom--lg">
       <h2 className={styles.head}>
         <Translate>カートゥーン</Translate>
       </h2>
       <div className="row">
-        {SoftwareList.map((props: SoftwareInfo, idx: number) => (
-          <SoftwareItem key={idx} {...props} />
+        {CartoonList.map((props: SoftwareInfo, idx: number) => (
+          <CartoonItem key={idx} {...props} />
         ))}
       </div>
     </div>
@@ -184,7 +204,7 @@ export default function Homepage(): JSX.Element {
       <div className="container">
         <img src="img/タイトルロゴ.png" />
         <div className="row">
-          <Software />
+          <Cartoon />
           <Blog />
           <Announce />
           <Support />
