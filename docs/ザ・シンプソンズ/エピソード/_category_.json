@@ -1,0 +1,9 @@
+{
+  "label": "エピソード",
+  "position": 2,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "description": "公開ソフトウェア"
+  }
+}
