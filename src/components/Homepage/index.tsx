@@ -83,15 +83,10 @@ function Announce() {
       <h2 className={styles.head}>
         <Translate>お知らせ</Translate>
       </h2>
-      <p>
-        <Translate>
-          ここで公開している全てのソフトウェアはフリーソフトウェアです。
-        </Translate>
-      </p>
+      <p>{/* <Translate>このサイトはまだ未完成です。</Translate> */}</p>
       <Admonition type="caution">
         <Translate>
-          個人・法人でもご自由に使って頂いてかまいません（頒布も含む）。
-          ただし、当ソフトウェアを使って直接的に利益を生じる使い方は禁止です。
+          このサイトはまだ未完成です。なので、ダミーデータが入力されています。
         </Translate>
       </Admonition>
     </div>
