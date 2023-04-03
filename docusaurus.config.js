@@ -129,13 +129,13 @@ const config = {
             label: "フューチュラマ",
             position: "left",
           },
-          // { to: "/docs/category/lab", label: "Lab", position: "left" },
-          // { to: "/docs/category/note", label: "Note", position: "left" },
-          // {
-          //   to: "/docs/category/software",
-          //   label: "Software",
-          //   position: "left",
-          // },
+          { to: "/docs/category/lab", label: "Lab", position: "left" },
+          { to: "/docs/category/note", label: "Note", position: "left" },
+          {
+            to: "/docs/category/software",
+            label: "Software",
+            position: "left",
+          },
           { to: "/blog", label: "Blog", position: "left" },
           // {
           //   href: "https://mebiusbox.github.io/contents/EffectTextureMaker",
