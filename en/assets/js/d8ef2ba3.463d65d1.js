@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmebiusbox_docusaurus=self.webpackChunkmebiusbox_docusaurus||[]).push([[3941],{2633:e=>{e.exports=JSON.parse('{"permalink":"/Cartoon-Street/en/blog/tags/\u30d0\u30c3\u30c1","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

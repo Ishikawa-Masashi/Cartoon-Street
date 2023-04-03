@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmebiusbox_docusaurus=self.webpackChunkmebiusbox_docusaurus||[]).push([[9468],{4898:e=>{e.exports=JSON.parse('{"label":"mdBook","permalink":"/Cartoon-Street/en/blog/tags/md-book","allTagsPath":"/Cartoon-Street/en/blog/tags","count":1}')}}]);

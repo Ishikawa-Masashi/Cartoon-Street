@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmebiusbox_docusaurus=self.webpackChunkmebiusbox_docusaurus||[]).push([[8270],{2553:e=>{e.exports=JSON.parse('{"permalink":"/Cartoon-Street/en/blog/page/2","page":2,"postsPerPage":5,"totalPages":7,"totalCount":34,"previousPage":"/Cartoon-Street/en/blog","nextPage":"/Cartoon-Street/en/blog/page/3","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
